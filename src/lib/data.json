@@ -1,0 +1,1765 @@
+{
+  "language": "Lunara",
+  "description": "A constructed language designed for beauty and simplicity, with a melodic, flowy sound inspired by Latin, Japanese, Sanskrit, Arabic, Hebrew, and other sources.",
+  "phonology": [
+    {
+      "aspect": "Vowels",
+      "description": "/a, e, i, o, u/ (pronounced as in Spanish: ah, eh, ee, oh, oo). Examples: luna /lu.na/, sera /se.ra/."
+    },
+    {
+      "aspect": "Consonants",
+      "description": "Soft sounds: /p, b, t, d, g, f, v, s, m, n, l, r, j/. c = /k/ (e.g., canta /kan.ta/). No harsh sounds or nasals."
+    },
+    {
+      "aspect": "Stress",
+      "description": "Penultimate syllable unless marked with diacritics (á, é, í, ó, ú, e.g., sófte /sof.te/, softly)."
+    },
+    {
+      "aspect": "Feel",
+      "description": "Smoother than English/Italian, as melodic as French/Portuguese, minimal diphthongs."
+    }
+  ],
+  "grammar": [
+    {
+      "rule": "Word Order",
+      "description": "Subject-Verb-Object (SVO, e.g., Mi amar la luna, I love the moon)."
+    },
+    {
+      "rule": "Nouns",
+      "description": "End in -a or -o for euphony. Person-related: -o (male), -a (female, e.g., tomo/toma, friend male/female). Plural: add -s (e.g., lunas, moons)."
+    },
+    {
+      "rule": "Articles",
+      "description": "Definite: la (singular/plural, e.g., la luna, la lunas). Indefinite: a (singular), as (plural, e.g., a luna, as lunas)."
+    },
+    {
+      "rule": "Pronouns",
+      "description": "mi (I), vu (you, singular), vi (he/she/it), na (we), vus (you, plural), vis (they)."
+    },
+    {
+      "rule": "Possessives",
+      "description": "mia (my), vua (your, for vu/vus), sua (his/her/their), nua (our)."
+    },
+    {
+      "rule": "Verbs",
+      "description": "Infinitive: -ar (e.g., amar, to love). Present: infinitive + pronoun (e.g., mi amar, I love). Past: -i (e.g., amari, loved). Future: va + infinitive (e.g., va amar, will love). Progressive: -an (e.g., amaran, loving)."
+    },
+    {
+      "rule": "Adjectives",
+      "description": "Invariable, follow nouns (e.g., sama lumus, glowing sky)."
+    },
+    {
+      "rule": "Adverbs",
+      "description": "Add -ita to adjectives (e.g., lumus → lumita, glowingly)."
+    },
+    {
+      "rule": "Copula",
+      "description": "is (to be, present, e.g., La hana is salus, The flower is peaceful)."
+    }
+  ],
+  "root_system": [
+    {
+      "root": "c-n-t",
+      "concept": "song",
+      "noun": "cantoro/cantora (singer, m/f), canta (song)",
+      "verb": "cantar (to sing)",
+      "adjective": "cantus (melodious)"
+    },
+    {
+      "root": "f-m",
+      "concept": "fame",
+      "noun": "fama (fame)",
+      "verb": "famar (to glorify)",
+      "adjective": "famus (famous)"
+    },
+    {
+      "root": "f-m",
+      "concept": "hunger",
+      "noun": "foma (hunger)",
+      "verb": "fomar (to hunger)",
+      "adjective": "fomus (hungry)"
+    },
+    {
+      "root": "f-s",
+      "concept": "dance",
+      "noun": "fusa (dance)",
+      "verb": "fusar (to dance)",
+      "adjective": "fusus (dancing)"
+    },
+    {
+      "root": "f-s",
+      "concept": "ease",
+      "noun": "fasila (ease)",
+      "verb": "fasilar (to ease)",
+      "adjective": "fasilus (easy)"
+    },
+    {
+      "root": "l-l",
+      "concept": "game",
+      "noun": "lila (game)",
+      "verb": "lilar (to play)",
+      "adjective": "lilus (playful)"
+    },
+    {
+      "root": "l-m",
+      "concept": "glow",
+      "noun": "luma (glow)",
+      "verb": "lumar (to glow)",
+      "adjective": "lumus (glowing/bright)"
+    },
+    {
+      "root": "n-m",
+      "concept": "name",
+      "noun": "nima (name)",
+      "verb": "nimar (to name)",
+      "adjective": "nimus (named)"
+    },
+    {
+      "root": "n-m",
+      "concept": "soul",
+      "noun": "anima (soul)",
+      "verb": "animar (to inspire)",
+      "adjective": "animus (spiritual)"
+    },
+    {
+      "root": "n-v",
+      "concept": "ship",
+      "noun": "nava (ship)",
+      "verb": "navar (to sail)",
+      "adjective": "navus (sailing)"
+    },
+    {
+      "root": "r-r",
+      "concept": "smile",
+      "noun": "rira (smile)",
+      "verb": "rirar (to smile)",
+      "adjective": "rirus (smiling)"
+    },
+    {
+      "root": "r-s",
+      "concept": "joy",
+      "noun": "risa (joy)",
+      "verb": "risar (to rejoice)",
+      "adjective": "risus (joyful)"
+    },
+    {
+      "root": "s-l",
+      "concept": "peace",
+      "noun": "sala (peace)",
+      "verb": "salar (to calm)",
+      "adjective": "salus (peaceful)"
+    },
+    {
+      "root": "s-n",
+      "concept": "health",
+      "noun": "sana (health)",
+      "verb": "sanar (to heal)",
+      "adjective": "sanus (healthy)"
+    },
+    {
+      "root": "s-n",
+      "concept": "dream",
+      "noun": "sona (dream), sono (sleepiness)",
+      "verb": "sonar (to dream)",
+      "adjective": "sonus (dreamy)"
+    },
+    {
+      "root": "s-d",
+      "concept": "play",
+      "noun": "suda (play)",
+      "verb": "sudar (to frolic)",
+      "adjective": "sudus (playful)"
+    },
+    {
+      "root": "t-m",
+      "concept": "friend",
+      "noun": "tomo/toma (friend, m/f)",
+      "verb": "tomar (to befriend)",
+      "adjective": "tomus (friendly)"
+    },
+    {
+      "root": "v-s",
+      "concept": "voice",
+      "noun": "vosa (voice)",
+      "verb": "vosar (to call)",
+      "adjective": "vosus (vocal)"
+    },
+    {
+      "root": "c-r",
+      "concept": "heart",
+      "noun": "cora (heart)",
+      "verb": "corar (to feel [emotion])",
+      "adjective": "corus (heartfelt)"
+    },
+    {
+      "root": "n-r",
+      "concept": "light",
+      "noun": "nura (light)",
+      "verb": "nurar (to shine)",
+      "adjective": "nurus (bright)"
+    },
+    {
+      "root": "s-m",
+      "concept": "sky",
+      "noun": "sama (sky)",
+      "verb": "samar (to soar)",
+      "adjective": "samus (celestial)"
+    },
+    {
+      "root": "v-v",
+      "concept": "life",
+      "noun": "viva (life)",
+      "verb": "vivar (to live)",
+      "adjective": "vivus (alive)"
+    },
+    {
+      "root": "t-m-p",
+      "concept": "time",
+      "noun": "tempa (time)",
+      "verb": "tempar (to pass [time])",
+      "adjective": "tempus (timely)"
+    },
+    {
+      "root": "b-n",
+      "concept": "goodness",
+      "noun": "bona (goodness)",
+      "verb": "bonar (to be good)",
+      "adjective": "bonus (good)"
+    },
+    {
+      "root": "b-l",
+      "concept": "beauty",
+      "noun": "bela (beauty)",
+      "verb": "belar (to beautify)",
+      "adjective": "belus (beautiful)"
+    },
+    {
+      "root": "s-b-r",
+      "concept": "patience",
+      "noun": "sabra (patience)",
+      "verb": "sabrar (to be patient)",
+      "adjective": "sabrUs (patient)"
+    },
+    {
+      "root": "k-n",
+      "concept": "kindness",
+      "noun": "kena (kindness)",
+      "verb": "kenar (to be kind)",
+      "adjective": "kenus (kind)"
+    },
+    {
+      "root": "i-n-v",
+      "concept": "envy",
+      "noun": "inva (envy)",
+      "verb": "invar (to envy)",
+      "adjective": "invus (envious)"
+    },
+    {
+      "root": "b-s",
+      "concept": "boast",
+      "noun": "basa (boast)",
+      "verb": "basar (to boast)",
+      "adjective": "basus (boastful)"
+    },
+    {
+      "root": "p-r-d",
+      "concept": "pride",
+      "noun": "prada (pride)",
+      "verb": "pradar (to be proud)",
+      "adjective": "pradus (proud)"
+    },
+    {
+      "root": "d-s",
+      "concept": "dishonor",
+      "noun": "disa (dishonor)",
+      "verb": "disar (to dishonor)",
+      "adjective": "disus (dishonest)"
+    },
+    {
+      "root": "s-l-f",
+      "concept": "self-seeking",
+      "noun": "selfa (self-seeking)",
+      "verb": "selfar (to seek self)",
+      "adjective": "selfus (self-seeking)"
+    },
+    {
+      "root": "i-r",
+      "concept": "anger",
+      "noun": "ira (anger)",
+      "verb": "irar (to be angry)",
+      "adjective": "irus (angry)"
+    },
+    {
+      "root": "r-c-r",
+      "concept": "record",
+      "noun": "ricra (record)",
+      "verb": "ricrar (to record)",
+      "adjective": "ricrus (recorded)"
+    },
+    {
+      "root": "e-r-r",
+      "concept": "wrong",
+      "noun": "erra (wrong)",
+      "verb": "errar (to wrong)",
+      "adjective": "errus (wrongful)"
+    },
+    {
+      "root": "m-l",
+      "concept": "evil",
+      "noun": "mala (evil)",
+      "verb": "malar (to harm)",
+      "adjective": "malus (evil)"
+    },
+    {
+      "root": "v-r",
+      "concept": "truth",
+      "noun": "vera (truth)",
+      "verb": "verar (to be true)",
+      "adjective": "verus (true)"
+    },
+    {
+      "root": "g-r-d",
+      "concept": "protection",
+      "noun": "garda (protection)",
+      "verb": "gardar (to protect)",
+      "adjective": "gardus (protective)"
+    },
+    {
+      "root": "a-m-n",
+      "concept": "trust",
+      "noun": "amana (trust)",
+      "verb": "amanar (to trust)",
+      "adjective": "amanus (trusting)"
+    },
+    {
+      "root": "e-s-p",
+      "concept": "hope",
+      "noun": "espa (hope)",
+      "verb": "espar (to hope)",
+      "adjective": "espus (hopeful)"
+    },
+    {
+      "root": "p-r-s",
+      "concept": "perseverance",
+      "noun": "persa (perseverance)",
+      "verb": "persar (to persevere)",
+      "adjective": "persus (steadfast)"
+    },
+    {
+      "root": "m-r",
+      "concept": "wonder",
+      "noun": "mira (wonder)",
+      "verb": "mirar (to wonder)",
+      "adjective": "mirus (wonderful)"
+    },
+    {
+      "root": "s-m-p",
+      "concept": "simplicity",
+      "noun": "simpa (simplicity)",
+      "verb": "simpar (to simplify)",
+      "adjective": "simpus (simple)"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "ama",
+      "translation": "love",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "amar",
+      "translation": "to love",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "amora",
+      "translation": "loved one, female",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "amoro",
+      "translation": "loved one, male",
+      "source_language": "Latin",
+      "ending": "-o"
+    },
+    {
+      "word": "anima",
+      "translation": "soul",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "animar",
+      "translation": "to inspire",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "animus",
+      "translation": "spiritual",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "aqua",
+      "translation": "water",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "aura",
+      "translation": "breeze",
+      "source_language": "Greek",
+      "ending": "-a"
+    },
+    {
+      "word": "bela",
+      "translation": "beauty",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "belar",
+      "translation": "to beautify",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "belus",
+      "translation": "beautiful",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "bona",
+      "translation": "goodness",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "bonar",
+      "translation": "to be good",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "bonus",
+      "translation": "good",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "canta",
+      "translation": "song",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "cantar",
+      "translation": "to sing",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "cantus",
+      "translation": "melodious",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "cantora",
+      "translation": "singer, female",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "cantoro",
+      "translation": "singer, male",
+      "source_language": "Latin",
+      "ending": "-o"
+    },
+    {
+      "word": "cora",
+      "translation": "heart",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "corar",
+      "translation": "to feel (emotion)",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "corus",
+      "translation": "heartfelt",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "fama",
+      "translation": "fame",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "famar",
+      "translation": "to glorify",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "famus",
+      "translation": "famous",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "fira",
+      "translation": "fire",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "foma",
+      "translation": "hunger",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "fomar",
+      "translation": "to hunger",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "fomus",
+      "translation": "hungry",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "fusa",
+      "translation": "dance",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "fusar",
+      "translation": "to dance",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "fusus",
+      "translation": "dancing",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "fasila",
+      "translation": "ease",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "fasilar",
+      "translation": "to ease",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "fasilus",
+      "translation": "easy",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "hana",
+      "translation": "flower",
+      "source_language": "Japanese",
+      "ending": "-a"
+    },
+    {
+      "word": "lila",
+      "translation": "game",
+      "source_language": "Sanskrit",
+      "ending": "-a"
+    },
+    {
+      "word": "lilar",
+      "translation": "to play",
+      "source_language": "Sanskrit",
+      "ending": "-"
+    },
+    {
+      "word": "lilus",
+      "translation": "playful",
+      "source_language": "Sanskrit",
+      "ending": "-"
+    },
+    {
+      "word": "lira",
+      "translation": "harp",
+      "source_language": "Greek",
+      "ending": "-a"
+    },
+    {
+      "word": "luma",
+      "translation": "glow",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "lumar",
+      "translation": "to glow",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "lumus",
+      "translation": "glowing/bright",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "luna",
+      "translation": "moon",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "mara",
+      "translation": "sea",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "mira",
+      "translation": "wonder",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "mirar",
+      "translation": "to wonder",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "mirus",
+      "translation": "wonderful",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "musica",
+      "translation": "music",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "murar",
+      "translation": "to whisper",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "nava",
+      "translation": "ship",
+      "source_language": "Sanskrit",
+      "ending": "-a"
+    },
+    {
+      "word": "navar",
+      "translation": "to sail",
+      "source_language": "Sanskrit",
+      "ending": "-"
+    },
+    {
+      "word": "navus",
+      "translation": "sailing",
+      "source_language": "Sanskrit",
+      "ending": "-"
+    },
+    {
+      "word": "nima",
+      "translation": "name",
+      "source_language": "Sanskrit",
+      "ending": "-a"
+    },
+    {
+      "word": "nimar",
+      "translation": "to name",
+      "source_language": "Sanskrit",
+      "ending": "-"
+    },
+    {
+      "word": "nimus",
+      "translation": "named",
+      "source_language": "Sanskrit",
+      "ending": "-"
+    },
+    {
+      "word": "nirvana",
+      "translation": "heaven",
+      "source_language": "Sanskrit",
+      "ending": "-a"
+    },
+    {
+      "word": "novo",
+      "translation": "new",
+      "source_language": "Latin",
+      "ending": "-o"
+    },
+    {
+      "word": "nura",
+      "translation": "light",
+      "source_language": "Arabic",
+      "ending": "-a"
+    },
+    {
+      "word": "nurar",
+      "translation": "to shine",
+      "source_language": "Arabic",
+      "ending": "-"
+    },
+    {
+      "word": "nurus",
+      "translation": "bright",
+      "source_language": "Arabic",
+      "ending": "-"
+    },
+    {
+      "word": "odisa",
+      "translation": "journey",
+      "source_language": "Greek",
+      "ending": "-a"
+    },
+    {
+      "word": "poeta",
+      "translation": "poet, female",
+      "source_language": "Greek",
+      "ending": "-a"
+    },
+    {
+      "word": "poeto",
+      "translation": "poet, male",
+      "source_language": "Greek",
+      "ending": "-o"
+    },
+    {
+      "word": "rira",
+      "translation": "smile",
+      "source_language": "Spanish",
+      "ending": "-a"
+    },
+    {
+      "word": "rirar",
+      "translation": "to smile",
+      "source_language": "Spanish",
+      "ending": "-"
+    },
+    {
+      "word": "rirus",
+      "translation": "smiling",
+      "source_language": "Spanish",
+      "ending": "-"
+    },
+    {
+      "word": "risa",
+      "translation": "joy",
+      "source_language": "Spanish",
+      "ending": "-a"
+    },
+    {
+      "word": "risar",
+      "translation": "to rejoice",
+      "source_language": "Spanish",
+      "ending": "-"
+    },
+    {
+      "word": "risus",
+      "translation": "joyful",
+      "source_language": "Spanish",
+      "ending": "-"
+    },
+    {
+      "word": "ruta",
+      "translation": "route/street",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "saga",
+      "translation": "story",
+      "source_language": "Norse",
+      "ending": "-a"
+    },
+    {
+      "word": "sala",
+      "translation": "peace",
+      "source_language": "Hebrew",
+      "ending": "-a"
+    },
+    {
+      "word": "salar",
+      "translation": "to calm",
+      "source_language": "Hebrew",
+      "ending": "-"
+    },
+    {
+      "word": "salus",
+      "translation": "peaceful",
+      "source_language": "Hebrew",
+      "ending": "-"
+    },
+    {
+      "word": "sama",
+      "translation": "sky",
+      "source_language": "Arabic",
+      "ending": "-a"
+    },
+    {
+      "word": "samar",
+      "translation": "to soar",
+      "source_language": "Arabic",
+      "ending": "-"
+    },
+    {
+      "word": "samus",
+      "translation": "celestial",
+      "source_language": "Arabic",
+      "ending": "-"
+    },
+    {
+      "word": "sana",
+      "translation": "health",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "sanar",
+      "translation": "to heal",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "sanus",
+      "translation": "healthy",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "savia",
+      "translation": "wise person, female",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "savio",
+      "translation": "wise person, male",
+      "source_language": "Latin",
+      "ending": "-o"
+    },
+    {
+      "word": "sera",
+      "translation": "evening/night",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "sila",
+      "translation": "silence",
+      "source_language": "Slavic",
+      "ending": "-a"
+    },
+    {
+      "word": "sona",
+      "translation": "dream",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "sonar",
+      "translation": "to dream",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "sonus",
+      "translation": "dreamy",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "sono",
+      "translation": "sleepiness",
+      "source_language": "Latin",
+      "ending": "-o"
+    },
+    {
+      "word": "suna",
+      "translation": "sun",
+      "source_language": "Japanese/Sanskrit",
+      "ending": "-a"
+    },
+    {
+      "word": "suda",
+      "translation": "play",
+      "source_language": "Sanskrit",
+      "ending": "-a"
+    },
+    {
+      "word": "sudar",
+      "translation": "to frolic",
+      "source_language": "Sanskrit",
+      "ending": "-"
+    },
+    {
+      "word": "sudus",
+      "translation": "playful",
+      "source_language": "Sanskrit",
+      "ending": "-"
+    },
+    {
+      "word": "tempa",
+      "translation": "time",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "tempar",
+      "translation": "to pass (time)",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "tempus",
+      "translation": "timely",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "toma",
+      "translation": "friend, female",
+      "source_language": "Japanese",
+      "ending": "-a"
+    },
+    {
+      "word": "tomo",
+      "translation": "friend, male",
+      "source_language": "Japanese",
+      "ending": "-o"
+    },
+    {
+      "word": "tomar",
+      "translation": "to befriend",
+      "source_language": "Japanese",
+      "ending": "-"
+    },
+    {
+      "word": "tomus",
+      "translation": "friendly",
+      "source_language": "Japanese",
+      "ending": "-"
+    },
+    {
+      "word": "vaya",
+      "translation": "wave",
+      "source_language": "Spanish",
+      "ending": "-a"
+    },
+    {
+      "word": "velo",
+      "translation": "old",
+      "source_language": "Latin",
+      "ending": "-o"
+    },
+    {
+      "word": "viam",
+      "translation": "way",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "viva",
+      "translation": "life",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "vivar",
+      "translation": "to live",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "vivus",
+      "translation": "alive",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "vira",
+      "translation": "woman",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "viro",
+      "translation": "man",
+      "source_language": "Latin",
+      "ending": "-o"
+    },
+    {
+      "word": "vosa",
+      "translation": "voice",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "vosar",
+      "translation": "to call",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "vosus",
+      "translation": "vocal",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "sabra",
+      "translation": "patience",
+      "source_language": "Arabic",
+      "ending": "-a"
+    },
+    {
+      "word": "sabrar",
+      "translation": "to be patient",
+      "source_language": "Arabic",
+      "ending": "-"
+    },
+    {
+      "word": "sabrUs",
+      "translation": "patient",
+      "source_language": "Arabic",
+      "ending": "-"
+    },
+    {
+      "word": "kena",
+      "translation": "kindness",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "kenar",
+      "translation": "to be kind",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "kenus",
+      "translation": "kind",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "inva",
+      "translation": "envy",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "invar",
+      "translation": "to envy",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "invus",
+      "translation": "envious",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "basa",
+      "translation": "boast",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "basar",
+      "translation": "to boast",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "basus",
+      "translation": "boastful",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "prada",
+      "translation": "pride",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "pradar",
+      "translation": "to be proud",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "pradus",
+      "translation": "proud",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "disa",
+      "translation": "dishonor",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "disar",
+      "translation": "to dishonor",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "disus",
+      "translation": "dishonest",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "selfa",
+      "translation": "self-seeking",
+      "source_language": "English",
+      "ending": "-a"
+    },
+    {
+      "word": "selfar",
+      "translation": "to seek self",
+      "source_language": "English",
+      "ending": "-"
+    },
+    {
+      "word": "selfus",
+      "translation": "self-seeking",
+      "source_language": "English",
+      "ending": "-"
+    },
+    {
+      "word": "ira",
+      "translation": "anger",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "irar",
+      "translation": "to be angry",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "irus",
+      "translation": "angry",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "ricra",
+      "translation": "record",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "ricrar",
+      "translation": "to record",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "ricrus",
+      "translation": "recorded",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "erra",
+      "translation": "wrong",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "errar",
+      "translation": "to wrong",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "errus",
+      "translation": "wrongful",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "mala",
+      "translation": "evil",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "malar",
+      "translation": "to harm",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "malus",
+      "translation": "evil",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "vera",
+      "translation": "truth",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "verar",
+      "translation": "to be true",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "verus",
+      "translation": "true",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "garda",
+      "translation": "protection",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "gardar",
+      "translation": "to protect",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "gardus",
+      "translation": "protective",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "amana",
+      "translation": "trust",
+      "source_language": "Arabic",
+      "ending": "-a"
+    },
+    {
+      "word": "amanar",
+      "translation": "to trust",
+      "source_language": "Arabic",
+      "ending": "-"
+    },
+    {
+      "word": "amanus",
+      "translation": "trusting",
+      "source_language": "Arabic",
+      "ending": "-"
+    },
+    {
+      "word": "espa",
+      "translation": "hope",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "espar",
+      "translation": "to hope",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "espus",
+      "translation": "hopeful",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "persa",
+      "translation": "perseverance",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "persar",
+      "translation": "to persevere",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "persus",
+      "translation": "steadfast",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "simpa",
+      "translation": "simplicity",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "simpar",
+      "translation": "to simplify",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "simpus",
+      "translation": "simple",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "falar",
+      "translation": "to speak",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "falus",
+      "translation": "spoken, eloquent",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "fala",
+      "translation": "speech",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "la",
+      "translation": "the (sg/pl)",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "a",
+      "translation": "a/an",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "as",
+      "translation": "some",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "mi",
+      "translation": "I",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "vu",
+      "translation": "you (singular)",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "vi",
+      "translation": "he/she/it",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "na",
+      "translation": "we",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "vus",
+      "translation": "you (plural)",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "vis",
+      "translation": "they",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "mia",
+      "translation": "my",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "vua",
+      "translation": "your (sg./pl.)",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "sua",
+      "translation": "his/her/their",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "nua",
+      "translation": "our",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "is",
+      "translation": "to be (present)",
+      "source_language": "-",
+      "ending": "-"
+    },
+    {
+      "word": "no",
+      "translation": "not",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "to",
+      "translation": "to, toward",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "su",
+      "translation": "on",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "per",
+      "translation": "through",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "de",
+      "translation": "from",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "por",
+      "translation": "for",
+      "source_language": "Spanish",
+      "ending": "-"
+    },
+    {
+      "word": "sempre",
+      "translation": "always",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "sed",
+      "translation": "but",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "con",
+      "translation": "with",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "in",
+      "translation": "in",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "utro",
+      "translation": "other",
+      "source_language": "Latin",
+      "ending": "-o"
+    },
+    {
+      "word": "utros",
+      "translation": "others",
+      "source_language": "Latin",
+      "ending": "-s"
+    },
+    {
+      "word": "tota",
+      "translation": "all",
+      "source_language": "Latin",
+      "ending": "-"
+    }
+  ],
+  "adverbs_derived": [
+    {
+      "word": "lumita",
+      "translation": "glowingly/brightly",
+      "derived_from": "lumus"
+    },
+    {
+      "word": "risita",
+      "translation": "joyfully",
+      "derived_from": "risus"
+    },
+    {
+      "word": "belita",
+      "translation": "beautifully",
+      "derived_from": "belus"
+    },
+    {
+      "word": "salita",
+      "translation": "peacefully",
+      "derived_from": "salus"
+    },
+    {
+      "word": "ririta",
+      "translation": "smilingly",
+      "derived_from": "rirus"
+    },
+    {
+      "word": "sanita",
+      "translation": "healthily",
+      "derived_from": "sanus"
+    },
+    {
+      "word": "sonita",
+      "translation": "dreamily",
+      "derived_from": "sonus"
+    },
+    {
+      "word": "nurita",
+      "translation": "brightly",
+      "derived_from": "nurus"
+    },
+    {
+      "word": "corita",
+      "translation": "heartfeltly",
+      "derived_from": "corus"
+    },
+    {
+      "word": "samita",
+      "translation": "celestially",
+      "derived_from": "samus"
+    },
+    {
+      "word": "tempita",
+      "translation": "timely",
+      "derived_from": "tempus"
+    },
+    {
+      "word": "vivita",
+      "translation": "lively",
+      "derived_from": "vivus"
+    },
+    {
+      "word": "animita",
+      "translation": "spiritually",
+      "derived_from": "animus"
+    },
+    {
+      "word": "bonita",
+      "translation": "well",
+      "derived_from": "bonus"
+    },
+    {
+      "word": "cantita",
+      "translation": "melodiously",
+      "derived_from": "cantus"
+    },
+    {
+      "word": "famita",
+      "translation": "famously",
+      "derived_from": "famus"
+    },
+    {
+      "word": "fomita",
+      "translation": "hungrily",
+      "derived_from": "fomus"
+    },
+    {
+      "word": "fusita",
+      "translation": "dancingly",
+      "derived_from": "fusus"
+    },
+    {
+      "word": "lilita",
+      "translation": "playfully",
+      "derived_from": "lilus"
+    },
+    {
+      "word": "navita",
+      "translation": "sailingly",
+      "derived_from": "navus"
+    },
+    {
+      "word": "nimita",
+      "translation": "namedly",
+      "derived_from": "nimus"
+    },
+    {
+      "word": "sudita",
+      "translation": "playfully",
+      "derived_from": "sudus"
+    },
+    {
+      "word": "tomita",
+      "translation": "friendlily",
+      "derived_from": "tomus"
+    },
+    {
+      "word": "vosita",
+      "translation": "vocally",
+      "derived_from": "vosus"
+    },
+    {
+      "word": "sabrita",
+      "translation": "patiently",
+      "derived_from": "sabrUs"
+    },
+    {
+      "word": "kenita",
+      "translation": "kindly",
+      "derived_from": "kenus"
+    },
+    {
+      "word": "fasilita",
+      "translation": "easily",
+      "derived_from": "fasilus"
+    },
+    {
+      "word": "irita",
+      "translation": "angrily",
+      "derived_from": "irus"
+    },
+    {
+      "word": "pradita",
+      "translation": "proudly",
+      "derived_from": "pradus"
+    },
+    {
+      "word": "invita",
+      "translation": "enviously",
+      "derived_from": "invus"
+    },
+    {
+      "word": "basita",
+      "translation": "boastfully",
+      "derived_from": "basus"
+    },
+    {
+      "word": "disita",
+      "translation": "dishonestly",
+      "derived_from": "disus"
+    },
+    {
+      "word": "selfita",
+      "translation": "self-seekingly",
+      "derived_from": "selfus"
+    },
+    {
+      "word": "malita",
+      "translation": "evilly",
+      "derived_from": "malus"
+    },
+    {
+      "word": "verita",
+      "translation": "truly",
+      "derived_from": "verus"
+    },
+    {
+      "word": "gardita",
+      "translation": "protectively",
+      "derived_from": "gardus"
+    },
+    {
+      "word": "amanita",
+      "translation": "trustingly",
+      "derived_from": "amanus"
+    },
+    {
+      "word": "espita",
+      "translation": "hopefully",
+      "derived_from": "espus"
+    },
+    {
+      "word": "persita",
+      "translation": "steadfastly",
+      "derived_from": "persus"
+    },
+    {
+      "word": "simpita",
+      "translation": "simply",
+      "derived_from": "simpus"
+    }
+  ],
+  "sample_sentences": [
+    {
+      "lunara": "Mi amar vua amora bonita.",
+      "translation": "I love your loved one (female) well."
+    },
+    {
+      "lunara": "Vu rirar ririta en la sama salus.",
+      "translation": "You smile smilingly in the peaceful sky."
+    },
+    {
+      "lunara": "La hana novo is salus fasilus.",
+      "translation": "The new flower is peaceful and easy."
+    },
+    {
+      "lunara": "Na va sudar a suda sudus en la virida.",
+      "translation": "We will frolic a playful play in the garden."
+    },
+    {
+      "lunara": "Vi scrivar sua saga de ama belus.",
+      "translation": "He/she writes his/her story of beautiful love."
+    },
+    {
+      "lunara": "Vus fusar a fusa fusus en la sera belita.",
+      "translation": "You all dance a dancing dance in the evening beautifully."
+    }
+  ],
+  "sample_poem": {
+    "lunara": [
+      "La luna lumus",
+      "Cantar sófte en la sera belita",
+      "Suna nurar bonus",
+      "Mi amar sua nura vivita"
+    ],
+    "translation": [
+      "The glowing moon",
+      "Sings softly in the evening beautifully",
+      "The sun shines well",
+      "I love its light lively"
+    ]
+  }
+}

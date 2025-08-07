@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #141414;
+  --color-primary: #e0e0e0;
+  --color-secondary: #7f8c8d;
+  --color-secondary-bg: #2c3e50;
+  --color-accent: #a3d2d5;
+  --color-muted: #34495e;
+  --color-table-bg: #1f1f1f;
+}
+
+@layer base {
+  html {
+    @apply bg-bg;
+  }
+  body {
+    @apply text-primary bg-bg;
+  }
+}
