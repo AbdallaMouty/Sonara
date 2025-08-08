@@ -1,6 +1,29 @@
 {
-  "language": "Lunara",
-  "description": "A constructed language designed for beauty and simplicity, with a melodic, flowy sound inspired by Latin, Japanese, Sanskrit, Arabic, Hebrew, and other sources.",
+  "language": "Sonara",
+  "intro": "A lingua construs, disinita por bela e simpa, con a vosa cantus e aurita, animita de Latin, Japanese, Sanskrit, Arabic, Hebrew, e utros orivas.",
+  "description": "A constructed language, designed for beauty and simplicity, with a melodic, flowy sound inspired by Latin, Japanese, Sanskrit, Arabic, Hebrew, and other sources.",
+  "examples": [
+    {
+      "example": "La toma fidus librar la cora de ira malus.",
+      "translation": "The faithful friend frees the heart from evil anger."
+    },
+    {
+      "example": "La sola viam por farar laboro mirus is amar la laboro vua.",
+      "translation": "The only way to do wonderful work is to love your work."
+    },
+    {
+      "example": "En la media de la dura espar la oportuna.",
+      "translation": "In the middle of difficulty lies the opportunity."
+    },
+    {
+      "example": "La cora gardar suas causas, que la ratio ignorar.",
+      "translation": "The heart keeps its reasons, which reason ignores."
+    },
+    {
+      "example": "La vera va librar vus.",
+      "translation": "The truth will free you."
+    }
+  ],
   "phonology": [
     {
       "aspect": "Vowels",
@@ -80,11 +103,18 @@
       "adjective": "fomus (hungry)"
     },
     {
-      "root": "f-s",
+      "root": "f-m",
+      "concept": "smoke",
+      "noun": "fuma (smoke)",
+      "verb": "fumar (to smoke)",
+      "adjective": "fumus (smoky)"
+    },
+    {
+      "root": "d-n-s",
       "concept": "dance",
-      "noun": "fusa (dance)",
-      "verb": "fusar (to dance)",
-      "adjective": "fusus (dancing)"
+      "noun": "dansa (dance)",
+      "verb": "dansar (to dance)",
+      "adjective": "dansus (dancing)"
     },
     {
       "root": "f-s",
@@ -304,7 +334,7 @@
       "adjective": "errus (wrongful)"
     },
     {
-      "root": "m-l",
+      "root": "m",
       "concept": "evil",
       "noun": "mala (evil)",
       "verb": "malar (to harm)",
@@ -358,6 +388,76 @@
       "noun": "simpa (simplicity)",
       "verb": "simpar (to simplify)",
       "adjective": "simpus (simple)"
+    },
+    {
+      "root": "f-l",
+      "concept": "speech",
+      "noun": "fala (speech)",
+      "verb": "falar (to speak)",
+      "adjective": "falus (eloquent)"
+    },
+    {
+      "root": "s-c-r",
+      "concept": "writing",
+      "noun": "scriva (writing)",
+      "verb": "scrivar (to write)",
+      "adjective": "scrivus (written)"
+    },
+    {
+      "root": "v-r-d",
+      "concept": "garden",
+      "noun": "virida (garden)",
+      "verb": "viridar (to garden)",
+      "adjective": "viridus (garden-like)"
+    },
+    {
+      "root": "f-r-t",
+      "concept": "strength",
+      "noun": "forta (strength)",
+      "verb": "fortar (to strengthen)",
+      "adjective": "fortus (strong)"
+    },
+    {
+      "root": "f-d",
+      "concept": "faith",
+      "noun": "fida (faith)",
+      "verb": "fidar (to believe)",
+      "adjective": "fidus (faithful)"
+    },
+    {
+      "root": "l-b-r",
+      "concept": "freedom",
+      "noun": "libra (freedom)",
+      "verb": "librar (to free)",
+      "adjective": "librus (free)"
+    },
+    {
+      "root": "l-n-g",
+      "concept": "language",
+      "noun": "lingua (language)",
+      "verb": "linguar (to speak a language)",
+      "adjective": "linguus (linguistic)"
+    },
+    {
+      "root": "c-n-s-t-r",
+      "concept": "construction",
+      "noun": "constra (construction)",
+      "verb": "constrar (to construct)",
+      "adjective": "construs (constructed)"
+    },
+    {
+      "root": "r-g",
+      "concept": "source/origin",
+      "noun": "oriva (source/origin)",
+      "verb": "orivar (to originate)",
+      "adjective": "orivus (original)"
+    },
+    {
+      "root": "d-s-n",
+      "concept": "design",
+      "noun": "disina (design)",
+      "verb": "disinar (to design)",
+      "adjective": "disinus (designed)"
     }
   ],
   "vocabulary": [
@@ -542,19 +642,37 @@
       "ending": "-"
     },
     {
-      "word": "fusa",
+      "word": "fuma",
+      "translation": "smoke",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "fumar",
+      "translation": "to smoke",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "fumus",
+      "translation": "smoky",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "dansa",
       "translation": "dance",
       "source_language": "Latin",
       "ending": "-a"
     },
     {
-      "word": "fusar",
+      "word": "dansar",
       "translation": "to dance",
       "source_language": "Latin",
       "ending": "-"
     },
     {
-      "word": "fusus",
+      "word": "dansus",
       "translation": "dancing",
       "source_language": "Latin",
       "ending": "-"
@@ -1340,6 +1458,12 @@
       "ending": "-"
     },
     {
+      "word": "fala",
+      "translation": "speech",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
       "word": "falar",
       "translation": "to speak",
       "source_language": "Latin",
@@ -1347,419 +1471,195 @@
     },
     {
       "word": "falus",
-      "translation": "spoken, eloquent",
+      "translation": "eloquent",
       "source_language": "Latin",
       "ending": "-"
     },
     {
-      "word": "fala",
-      "translation": "speech",
+      "word": "scriva",
+      "translation": "writing",
       "source_language": "Latin",
       "ending": "-a"
     },
     {
-      "word": "la",
-      "translation": "the (sg/pl)",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "a",
-      "translation": "a/an",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "as",
-      "translation": "some",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "mi",
-      "translation": "I",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "vu",
-      "translation": "you (singular)",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "vi",
-      "translation": "he/she/it",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "na",
-      "translation": "we",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "vus",
-      "translation": "you (plural)",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "vis",
-      "translation": "they",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "mia",
-      "translation": "my",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "vua",
-      "translation": "your (sg./pl.)",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "sua",
-      "translation": "his/her/their",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "nua",
-      "translation": "our",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "is",
-      "translation": "to be (present)",
-      "source_language": "-",
-      "ending": "-"
-    },
-    {
-      "word": "no",
-      "translation": "not",
+      "word": "scrivar",
+      "translation": "to write",
       "source_language": "Latin",
       "ending": "-"
     },
     {
-      "word": "to",
-      "translation": "to, toward",
+      "word": "scrivus",
+      "translation": "written",
       "source_language": "Latin",
       "ending": "-"
     },
     {
-      "word": "su",
-      "translation": "on",
+      "word": "virida",
+      "translation": "garden",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "viridar",
+      "translation": "to garden",
       "source_language": "Latin",
       "ending": "-"
     },
     {
-      "word": "per",
-      "translation": "through",
+      "word": "viridus",
+      "translation": "garden-like",
       "source_language": "Latin",
       "ending": "-"
     },
     {
-      "word": "de",
-      "translation": "from",
+      "word": "forta",
+      "translation": "strength",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "fortar",
+      "translation": "to strengthen",
       "source_language": "Latin",
       "ending": "-"
     },
     {
-      "word": "por",
-      "translation": "for",
-      "source_language": "Spanish",
-      "ending": "-"
-    },
-    {
-      "word": "sempre",
-      "translation": "always",
+      "word": "fortus",
+      "translation": "strong",
       "source_language": "Latin",
       "ending": "-"
     },
     {
-      "word": "sed",
-      "translation": "but",
+      "word": "fida",
+      "translation": "faith",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "fidar",
+      "translation": "to believe",
       "source_language": "Latin",
       "ending": "-"
     },
     {
-      "word": "con",
-      "translation": "with",
+      "word": "fidus",
+      "translation": "faithful",
       "source_language": "Latin",
       "ending": "-"
     },
     {
-      "word": "in",
-      "translation": "in",
+      "word": "libra",
+      "translation": "freedom",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "librar",
+      "translation": "to free",
       "source_language": "Latin",
       "ending": "-"
     },
     {
-      "word": "utro",
-      "translation": "other",
+      "word": "librus",
+      "translation": "free",
       "source_language": "Latin",
-      "ending": "-o"
+      "ending": "-"
     },
     {
-      "word": "utros",
-      "translation": "others",
+      "word": "lingua",
+      "translation": "language",
       "source_language": "Latin",
-      "ending": "-s"
+      "ending": "-a"
     },
     {
-      "word": "tota",
-      "translation": "all",
+      "word": "linguar",
+      "translation": "to speak a language",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "linguus",
+      "translation": "linguistic",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "linguita",
+      "translation": "linguistically",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "constra",
+      "translation": "construction",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "constrar",
+      "translation": "to construct",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "construs",
+      "translation": "constructed",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "constrita",
+      "translation": "constructively",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "oriva",
+      "translation": "source/origin",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "orivar",
+      "translation": "to originate",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "orivus",
+      "translation": "original",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "orivita",
+      "translation": "originally",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "disina",
+      "translation": "design",
+      "source_language": "Latin",
+      "ending": "-a"
+    },
+    {
+      "word": "disinar",
+      "translation": "to design",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "disinus",
+      "translation": "designed",
+      "source_language": "Latin",
+      "ending": "-"
+    },
+    {
+      "word": "disinita",
+      "translation": "designedly",
       "source_language": "Latin",
       "ending": "-"
     }
-  ],
-  "adverbs_derived": [
-    {
-      "word": "lumita",
-      "translation": "glowingly/brightly",
-      "derived_from": "lumus"
-    },
-    {
-      "word": "risita",
-      "translation": "joyfully",
-      "derived_from": "risus"
-    },
-    {
-      "word": "belita",
-      "translation": "beautifully",
-      "derived_from": "belus"
-    },
-    {
-      "word": "salita",
-      "translation": "peacefully",
-      "derived_from": "salus"
-    },
-    {
-      "word": "ririta",
-      "translation": "smilingly",
-      "derived_from": "rirus"
-    },
-    {
-      "word": "sanita",
-      "translation": "healthily",
-      "derived_from": "sanus"
-    },
-    {
-      "word": "sonita",
-      "translation": "dreamily",
-      "derived_from": "sonus"
-    },
-    {
-      "word": "nurita",
-      "translation": "brightly",
-      "derived_from": "nurus"
-    },
-    {
-      "word": "corita",
-      "translation": "heartfeltly",
-      "derived_from": "corus"
-    },
-    {
-      "word": "samita",
-      "translation": "celestially",
-      "derived_from": "samus"
-    },
-    {
-      "word": "tempita",
-      "translation": "timely",
-      "derived_from": "tempus"
-    },
-    {
-      "word": "vivita",
-      "translation": "lively",
-      "derived_from": "vivus"
-    },
-    {
-      "word": "animita",
-      "translation": "spiritually",
-      "derived_from": "animus"
-    },
-    {
-      "word": "bonita",
-      "translation": "well",
-      "derived_from": "bonus"
-    },
-    {
-      "word": "cantita",
-      "translation": "melodiously",
-      "derived_from": "cantus"
-    },
-    {
-      "word": "famita",
-      "translation": "famously",
-      "derived_from": "famus"
-    },
-    {
-      "word": "fomita",
-      "translation": "hungrily",
-      "derived_from": "fomus"
-    },
-    {
-      "word": "fusita",
-      "translation": "dancingly",
-      "derived_from": "fusus"
-    },
-    {
-      "word": "lilita",
-      "translation": "playfully",
-      "derived_from": "lilus"
-    },
-    {
-      "word": "navita",
-      "translation": "sailingly",
-      "derived_from": "navus"
-    },
-    {
-      "word": "nimita",
-      "translation": "namedly",
-      "derived_from": "nimus"
-    },
-    {
-      "word": "sudita",
-      "translation": "playfully",
-      "derived_from": "sudus"
-    },
-    {
-      "word": "tomita",
-      "translation": "friendlily",
-      "derived_from": "tomus"
-    },
-    {
-      "word": "vosita",
-      "translation": "vocally",
-      "derived_from": "vosus"
-    },
-    {
-      "word": "sabrita",
-      "translation": "patiently",
-      "derived_from": "sabrUs"
-    },
-    {
-      "word": "kenita",
-      "translation": "kindly",
-      "derived_from": "kenus"
-    },
-    {
-      "word": "fasilita",
-      "translation": "easily",
-      "derived_from": "fasilus"
-    },
-    {
-      "word": "irita",
-      "translation": "angrily",
-      "derived_from": "irus"
-    },
-    {
-      "word": "pradita",
-      "translation": "proudly",
-      "derived_from": "pradus"
-    },
-    {
-      "word": "invita",
-      "translation": "enviously",
-      "derived_from": "invus"
-    },
-    {
-      "word": "basita",
-      "translation": "boastfully",
-      "derived_from": "basus"
-    },
-    {
-      "word": "disita",
-      "translation": "dishonestly",
-      "derived_from": "disus"
-    },
-    {
-      "word": "selfita",
-      "translation": "self-seekingly",
-      "derived_from": "selfus"
-    },
-    {
-      "word": "malita",
-      "translation": "evilly",
-      "derived_from": "malus"
-    },
-    {
-      "word": "verita",
-      "translation": "truly",
-      "derived_from": "verus"
-    },
-    {
-      "word": "gardita",
-      "translation": "protectively",
-      "derived_from": "gardus"
-    },
-    {
-      "word": "amanita",
-      "translation": "trustingly",
-      "derived_from": "amanus"
-    },
-    {
-      "word": "espita",
-      "translation": "hopefully",
-      "derived_from": "espus"
-    },
-    {
-      "word": "persita",
-      "translation": "steadfastly",
-      "derived_from": "persus"
-    },
-    {
-      "word": "simpita",
-      "translation": "simply",
-      "derived_from": "simpus"
-    }
-  ],
-  "sample_sentences": [
-    {
-      "lunara": "Mi amar vua amora bonita.",
-      "translation": "I love your loved one (female) well."
-    },
-    {
-      "lunara": "Vu rirar ririta en la sama salus.",
-      "translation": "You smile smilingly in the peaceful sky."
-    },
-    {
-      "lunara": "La hana novo is salus fasilus.",
-      "translation": "The new flower is peaceful and easy."
-    },
-    {
-      "lunara": "Na va sudar a suda sudus en la virida.",
-      "translation": "We will frolic a playful play in the garden."
-    },
-    {
-      "lunara": "Vi scrivar sua saga de ama belus.",
-      "translation": "He/she writes his/her story of beautiful love."
-    },
-    {
-      "lunara": "Vus fusar a fusa fusus en la sera belita.",
-      "translation": "You all dance a dancing dance in the evening beautifully."
-    }
-  ],
-  "sample_poem": {
-    "lunara": [
-      "La luna lumus",
-      "Cantar sófte en la sera belita",
-      "Suna nurar bonus",
-      "Mi amar sua nura vivita"
-    ],
-    "translation": [
-      "The glowing moon",
-      "Sings softly in the evening beautifully",
-      "The sun shines well",
-      "I love its light lively"
-    ]
-  }
+  ]
 }

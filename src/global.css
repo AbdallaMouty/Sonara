@@ -2,19 +2,51 @@
 
 @theme {
   --color-bg: #141414;
-  --color-primary: #e0e0e0;
+  --color-primary: #dadada;
   --color-secondary: #7f8c8d;
-  --color-secondary-bg: #2c3e50;
-  --color-accent: #a3d2d5;
-  --color-muted: #34495e;
-  --color-table-bg: #1f1f1f;
+  --color-secondary-bg: #292433;
+  --color-accent: #4e3ebd;
+  --color-muted: #656565;
+  --color-table-bg: #1e1e1e;
 }
 
 @layer base {
   html {
-    @apply bg-bg;
+    @apply bg-bg min-h-screen;
+    scroll-behavior: smooth;
   }
   body {
     @apply text-primary bg-bg;
   }
+}
+body:has(.peer:in-view) h1 {
+  font-size: 1.5rem; /* or use Tailwind classes with custom variants */
+}
+
+.section {
+  display: none;
+}
+
+/* Show the section that is targeted */
+.section:target {
+  display: block;
+}
+
+/* Show "home" if nothing is targeted */
+body:not(:has(:target)) #home {
+  display: block;
+}
+
+.main {
+  display: none;
+}
+
+/* Show #main when any section is targeted and it's NOT #home */
+body:has(:target):not(:has(#home:target)) #main {
+  display: block;
+}
+
+/* Show #home only if no section is targeted */
+body:not(:has(:target)) #home {
+  display: block;
 }

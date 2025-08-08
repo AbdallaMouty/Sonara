@@ -1,63 +1,317 @@
 ---
-import '../global.css';
-import data from '../lib/data.json';
+import "../global.css";
+import data from "../lib/data.json";
+import "animate.css";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<main class="w-full md:w-3/4 lg:w-1/2 mx-auto p-10 lg:p-20">
-			<h1 class="font-bold text-5xl sticky top-0 bg-bg/50 backdrop-blur-sm py-3 border-b border-b-table-bg">{data.language}</h1>
-			<section class="p-3">
-				<p class="text-md text-secondary">{data.description}</p>
-				<div class="w-full py-5">
-					<h3 class="text-3xl text-accent bg-secondary-bg w-fit p-1 px-2 rounded-full">#Phonology:</h3>
-					<div class="w-full flex divide-secondary border border-secondary mt-3 rounded-md bg-table-bg">
-						<div class="w-full h-full flex flex-col items-center justify-between divide-y divide-secondary">
-							{data.phonology.map((p)=>(
-								<div class="w-full h-full flex items-center justify-between gap-0">
-									<span class="text-center w-full h-full max-w-1/4 py-3">{p.aspect}</span>
-									<span class="w-full pl-3 h-20 border-l border-secondary py-3">{p.description}</span>
-								</div>
-							))}
-						</div>
-					</div>
-				</div>
-				<div class="w-full py-5">
-					<h3 class="text-3xl text-accent bg-secondary-bg w-fit p-1 px-2 rounded-full">#Grammar:</h3>
-					<div class="w-full flex divide-secondary border border-secondary mt-3 rounded-md bg-table-bg">
-						<div class="w-full h-full flex flex-col items-center justify-between divide-y divide-secondary">
-							{data.grammar.map((p)=>(
-								<div class="w-full h-full flex items-center justify-between gap-0">
-									<span class="text-center w-full h-full max-w-1/4 py-3">{p.rule}</span>
-									<span class="w-full pl-3 h-20 border-l border-secondary py-3">{p.description}</span>
-								</div>
-							))}
-						</div>
-					</div>
-				</div>
-				<div class="w-full py-5">
-					<h3 class="text-3xl text-accent bg-secondary-bg w-fit p-1 px-2 rounded-full">#Root System:</h3>
-					<div class="w-full flex divide-secondary border border-secondary mt-3 rounded-md bg-table-bg">
-						<div class="w-full h-full flex flex-col items-center justify-between divide-y divide-secondary">
-							{data.root_system.map((p)=>(
-								<div class="w-full h-fit flex items-center justify-between gap-0">
-									<span class="text-center w-full h-full max-w-1/4 py-3">{p.root}</span>
-									<span class="w-1/4 pl-3 h-20 border-l border-secondary py-3">{p.concept}</span>
-									<span class="w-1/4 pl-3 h-20 border-l border-secondary py-3">{p.noun}</span>
-									<span class="w-1/4 pl-3 h-20 border-l border-secondary py-3">{p.verb}</span>
-								</div>
-							))}
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Sonara</title>
+  </head>
+  <body>
+    <main
+      class="w-full md:w-3/4 lg:w-1/2 mx-auto pb-10 lg:pb-20 lg:overflow-x-clip"
+    >
+      <div
+        class="sticky top-0 bg-gradient-to-b from-transparet to-secondary-bg/25 backdrop-blur-sm py-2 border-b border-b-table-bg z-10 px-5 pt-5 lg:pt-10 h-fit"
+      >
+        <h1
+          id="page-title"
+          class="font-bold text-5xl transition-all duration-300 text-transparent bg-gradient-to-r from-accent to-secondary-bg bg-clip-text"
+        >
+          {data.language}
+        </h1>
+        <nav class="w-full flex items-center justify-between mt-2 text-muted">
+          <a
+            href="#home"
+            class="hover:underline transition duration-300 hover:text-accent text-xs md:text-lg"
+            >Home</a
+          >
+          <a
+            href="#phonology"
+            class="hover:underline transition duration-300 hover:text-accent text-xs md:text-lg"
+            >#Phonolgy</a
+          >
+          <a
+            href="#grammar"
+            class="hover:underline transition duration-300 hover:text-accent text-xs md:text-lg"
+            >#Grammar</a
+          >
+          <a
+            href="#root_system"
+            class="hover:underline transition duration-300 hover:text-accent text-xs md:text-lg"
+            >#Root System</a
+          >
+          <a
+            href="#vocabulary"
+            class="hover:underline transition duration-300 hover:text-accent text-xs md:text-lg"
+            >#Vocabulary</a
+          >
+        </nav>
+      </div>
+      <section
+        id="home"
+        class="section md:p-3 pt-3 px-5 lg:px-10 animate__animated animate__fadeIn animate__faster"
+      >
+        <div class="border-b border-secondary py-5">
+          <h3 class="text-3xl font-bold text-accent underline">
+            Introduction:
+          </h3>
+          <p class="ml-3 lg:ml-5 mt-2">{data.intro}</p>
+          <p class="ml-3 lg:ml-5 mt-2 text-xs text-secondary">
+            {data.description}
+          </p>
+        </div>
+        <div class="border-b border-secondary py-5">
+          <h3 class="text-3xl font-bold text-accent underline">Examples:</h3>
+          <div
+            class="w-full flex items-center justify-start flex-col divide-y divide-secondary-bg"
+          >
+            {
+              data.examples.map((ex) => (
+                <div class="w-full py-2">
+                  <p class="ml-3 lg:ml-5">{ex.example}</p>
+                  <p class="ml-3 lg:ml-5 mt-2 text-xs text-secondary">
+                    {ex.translation}
+                  </p>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+		</section>
+        <section
+          id="main"
+          class="md:p-3 pt-3 px-5 lg:px-10 main animate__animated animate__fadeIn animate__faster"
+        >
+          <p class="text-sm md:text-md text-secondary">{data.description}</p>
+          <div id="phonology" class="w-full py-5 scroll-mt-96">
+            <a href="#phonology">
+              <h3
+                class="text-3xl text-accent bg-secondary-bg w-fit p-1 px-2 rounded-full font-bold"
+              >
+                #Phonology:
+              </h3>
+            </a>
+            <div
+              class="mt-2 overflow-x-auto border border-secondary rounded-md bg-table-bg"
+            >
+              <table
+                class="min-w-full border-collapse divide-y divide-secondary"
+              >
+                <thead class="bg-secondary-bg">
+                  <tr>
+                    <th
+                      class="px-4 py-2 text-left text-sm font-semibold border-r border-secondary"
+                      >Aspect</th
+                    >
+                    <th
+                      class="px-4 py-2 text-left text-sm font-semibold border-r border-secondary"
+                      >Description</th
+                    >
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-secondary">
+                  {
+                    data.phonology.map((p) => (
+                      <tr>
+                        <td class="px-4 py-2 text-sm border-r border-secondary">
+                          {p.aspect}
+                        </td>
+                        <td class="px-4 py-2 text-sm border-r border-secondary">
+                          {p.description}
+                        </td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div id="grammar" class="w-full py-5 scroll-mt-24 lg:scroll-mt-22">
+            <a href="#grammar">
+              <h3
+                class="text-3xl text-accent bg-secondary-bg w-fit p-1 px-2 rounded-full font-bold"
+              >
+                #Grammar:
+              </h3>
+            </a>
+            <div
+              class="mt-2 overflow-x-auto border border-secondary rounded-md bg-table-bg"
+            >
+              <table
+                class="min-w-full border-collapse divide-y divide-secondary"
+              >
+                <thead class="bg-secondary-bg">
+                  <tr>
+                    <th
+                      class="px-4 py-2 text-left text-sm font-semibold border-r border-secondary"
+                      >Rule</th
+                    >
+                    <th
+                      class="px-4 py-2 text-left text-sm font-semibold border-r border-secondary"
+                      >Description</th
+                    >
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-secondary">
+                  {
+                    data.grammar.map((p) => (
+                      <tr>
+                        <td class="px-4 py-2 text-sm border-r border-secondary">
+                          {p.rule}
+                        </td>
+                        <td class="px-4 py-2 text-sm border-r border-secondary">
+                          {p.description}
+                        </td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div
+            id="root_system"
+            class="w-full py-5 scroll-mt-24 lg:scroll-mt-22"
+          >
+            <a href="#root_system">
+              <h3
+                class="text-3xl text-accent bg-secondary-bg w-fit p-1 px-2 rounded-full font-bold"
+              >
+                #Root System:
+              </h3>
+            </a>
+            <div
+              class="mt-2 overflow-x-auto border border-secondary rounded-md bg-table-bg"
+            >
+              <table
+                class="min-w-full border-collapse divide-y divide-secondary"
+              >
+                <thead class="bg-secondary-bg">
+                  <tr>
+                    <th
+                      class="px-4 py-2 text-left text-sm font-semibold border-r border-secondary"
+                      >Root</th
+                    >
+                    <th
+                      class="px-4 py-2 text-left text-sm font-semibold border-r border-secondary"
+                      >Concept</th
+                    >
+                    <th
+                      class="px-4 py-2 text-left text-sm font-semibold border-r border-secondary"
+                      >Noun</th
+                    >
+                    <th
+                      class="px-4 py-2 text-left text-sm font-semibold border-r border-secondary"
+                      >Verb</th
+                    >
+                    <th class="px-4 py-2 text-left text-sm font-semibold"
+                      >Adjective</th
+                    >
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-secondary">
+                  {
+                    data.root_system.map((p) => (
+                      <tr>
+                        <td class="px-4 py-2 text-sm border-r border-secondary">
+                          {p.root}
+                        </td>
+                        <td class="px-4 py-2 text-sm border-r border-secondary">
+                          {p.concept}
+                        </td>
+                        <td class="px-4 py-2 text-sm border-r border-secondary">
+                          {p.noun}
+                        </td>
+                        <td class="px-4 py-2 text-sm border-r border-secondary">
+                          {p.verb}
+                        </td>
+                        <td class="px-4 py-2 text-sm">{p.adjective}</td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div id="vocabulary" class="w-full py-5 scroll-mt-24 lg:scroll-mt-22">
+            <a href="#vocabulary">
+              <h3
+                class="text-3xl text-accent bg-secondary-bg w-fit p-1 px-2 rounded-full font-bold"
+              >
+                #Vocabulary:
+              </h3>
+            </a>
+            <div
+              class="mt-2 overflow-x-auto border border-secondary rounded-md bg-table-bg"
+            >
+              <table
+                class="min-w-full border-collapse divide-y divide-secondary"
+              >
+                <thead class="bg-secondary-bg">
+                  <tr>
+                    <th
+                      class="px-4 py-2 text-left text-sm font-semibold border-r border-secondary"
+                      >Word</th
+                    >
+                    <th
+                      class="px-4 py-2 text-left text-sm font-semibold border-r border-secondary"
+                      >Translation</th
+                    >
+                    <th
+                      class="px-4 py-2 text-left text-sm font-semibold border-r border-secondary"
+                      >Source Language</th
+                    >
+                    <th class="px-4 py-2 text-left text-sm font-semibold"
+                      >Ending</th
+                    >
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-secondary">
+                  {
+                    data.vocabulary.map((p) => (
+                      <tr>
+                        <td class="px-4 py-2 text-sm border-r border-secondary">
+                          {p.word}
+                        </td>
+                        <td class="px-4 py-2 text-sm border-r border-secondary">
+                          {p.translation}
+                        </td>
+                        <td class="px-4 py-2 text-sm border-r border-secondary">
+                          {p.source_language}
+                        </td>
+                        <td class="px-4 py-2 text-sm">{p.ending}</td>
+                      </tr>
+                    ))
+                  }
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </section>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const title = document.getElementById("page-title");
+
+          if (title) {
+            window.addEventListener("scroll", () => {
+              if (window.scrollY > 40) {
+                title.classList.remove("text-5xl");
+                title.classList.add("text-2xl");
+              } else {
+                title.classList.add("text-5xl");
+                title.classList.remove("text-2xl");
+              }
+            });
+          }
+        });
+      </script>
+    </main>
+  </body>
 </html>
