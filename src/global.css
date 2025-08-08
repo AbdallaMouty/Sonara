@@ -50,3 +50,19 @@ body:has(:target):not(:has(#home:target)) #main {
 body:not(:has(:target)) #home {
   display: block;
 }
+
+body:has(:target[id="home"]) a[href="#home"],
+body:has(:target[id="phonology"]) a[href="#phonology"],
+body:has(:target[id="grammar"]) a[href="#grammar"],
+body:has(:target[id="root_system"]) a[href="#root_system"],
+body:has(:target[id="vocabulary"]) a[href="#vocabulary"] {
+  color: #4e3ebd; /* replace with your accent color */
+}
+
+body:has(#home:in-view) a[href="#home"],
+body:has(#phonology:in-view) a[href="#phonology"],
+body:has(#grammar:in-view) a[href="#grammar"],
+body:has(#root_system:in-view) a[href="#root_system"],
+body:has(#vocabulary:in-view) a[href="#vocabulary"] {
+  color: #4e3ebd;
+}
